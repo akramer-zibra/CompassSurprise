@@ -8,6 +8,13 @@
     <script src="Scripts/spinner.js"></script>
 </head>
 <body>
-    <button onclick="moveCompass(180);"> Test </button>
+        <div style="height:400px;width:400px;z-index:2;position:absolute;top:15px;left:20px;">
+            <svg id="compassSvg" style="width:400px;height:400px;"></svg>
+        </div>
+        <div style="height:400px;width:400px;z-index:3;position:absolute;top:15px;left:20px;">
+            <svg id="arrowSvg" style="width:400px;height:400px;padding-top:164px;"></svg>
+        </div>
+    <button onclick="moveCompass(45);"> Test </button>
+    <button onclick="moveAarrow(195);"> Pfeil </button>
 </body>
 </html>
